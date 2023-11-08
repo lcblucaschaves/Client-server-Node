@@ -1,0 +1,28 @@
+GET http://localhost:4000/users
+###
+
+POST http://localhost:4000/users
+content-type: application/json
+
+{
+    "name": "chaves",
+    "email": "chaves@email.com",
+    "password": "12345"
+}
+###
+
+GET http://localhost:4000/users/21HatsVF8cUo6ZAL
+###
+
+PUT http://localhost:4000/users/21HatsVF8cUo6ZAL
+content-type: application/json
+
+{
+    "name": "chaves edit",
+    "email": "chaves@email.com",
+    "password": "12345"
+}
+###
+
+DELETE http://localhost:4000/users/21HatsVF8cUo6ZAL
+###
