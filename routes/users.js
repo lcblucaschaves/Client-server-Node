@@ -11,6 +11,9 @@ var client = restify.createJSONClient({
 router.get('/', function(req, res, next) {
     //client.basicAuth('$login', '$password'); coloca autenticacao
 
+    /* RESTIFY
+    
+    
     client.get('/users', function(err, request, response, obj) {
         assert.ifError(err);
         res.end(JSON.stringify(obj, null, 2));
